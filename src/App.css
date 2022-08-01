@@ -1,0 +1,49 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body{
+  font-family: 'NanumSquareRound',sans-serif !important;
+}
+
+.mid{
+  text-align: center;
+  margin:15vh;
+}
+
+.cards{
+  position: absolute;
+  bottom: 20vh;
+  width: 50vw;
+  border: 1px solid #e0e1e2;
+}
+
+.cardImage{
+  border: black 1px solid;
+  border-radius: 10px;
+}
+
+.choosed{
+  box-shadow: 3px 3px 3px 3px #00000055;
+  border: #ffff00 1px solid;
+}
+
+#title{
+  font-size: XX-large;
+  font-weight: bold;
+  padding:6vh 5vw 2vh 5vw;
+  border-bottom: 2px solid #0E6EB8;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 90vh;
+  border-radius: 50px 50px 0 0;
+}
+
+#root{
+  height: 100vh;
+  padding: 10vh 5vw 0 5vw;
+  background-color: #0E6EB8;
+}
